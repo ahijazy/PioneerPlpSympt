@@ -10,12 +10,7 @@ Predicting symptomatic progression for metastatic hormone sensitive prostate can
 - Study lead forums tag: **[bdemeulder](https://forums.ohdsi.org/u/bdemeulder)**
 - Study start date: **November 2022**
  
- 
 
-Using the renv lock file
-===================
-After downloading the package run:
-renv::init()
 
 Suggested Requirements
 ===================
