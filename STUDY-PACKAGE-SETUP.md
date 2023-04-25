@@ -16,9 +16,9 @@ The script below is an example to use for setting up your environment. There are
                                                                                                  
 ## Package setup steps
 
-The setup script below is used to install the **SkeletonPredictionStudy** package. You will need to modify this setup script as follows:
+The setup script below is used to install the **PioneerPlpSympt** package. You will need to modify this setup script as follows:
                                                                                               
-- Set the `projectRootFolder` variable to the directory specific to your environment. In this example we are using `C:/SkeletonPredictionStudy`. This root folder will serve a few purposes:
+- Set the `projectRootFolder` variable to the directory specific to your environment. In this example we are using `C:/PioneerPlpSympt`. This root folder will serve a few purposes:
   - It will hold the R depdencies in subfolders in this directory.
   - It should be used to hold the output of running the study package.
 - If you need to change the default location where `renv` will install the R package dependencies, uncomment out the line: `Sys.setenv("RENV_PATHS_ROOT"="C:\renv")` and replace `"C:\renv"` with your directory of choice.
@@ -37,7 +37,8 @@ install.packages("renv")
 
 # You need to specify a project folder for the renv (the study specific environment will be 
 # save here) and you need to set you R working direcory to this location before running renv
-projectFolder <- "C:/SkeletonPredictionStudy"
+projectFolder <- "C:/PioneerPlpSympt
+"
 if(!dir.exists(projectFolder)){
 dir.create(projectFolder,   recursive = T)
 }
